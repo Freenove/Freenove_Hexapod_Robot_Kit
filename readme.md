@@ -9,6 +9,12 @@ Do NOT click the "Open in Desktop" button, it will lead you to install Github so
 
 > If you meet any difficulties, please contact our support team for help.
 
+### Use
+
+Download the ZIP file as above.
+Unzip it and you will get a folder contains tutorials and related files.
+Please start with "Tutorial.pdf".
+
 ### Support
 
 Freenove provides free and quick customer support. Including but not limited to:
