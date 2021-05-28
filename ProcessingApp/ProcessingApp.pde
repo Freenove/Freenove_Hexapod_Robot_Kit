@@ -4,7 +4,8 @@
  *            To use Serial, the robot should connect to the device run this sketch.
  *            To use Wi-Fi, the device run this sketch should connect to the Wi-Fi of the robot.
  * Author     Ethan Pan @ Freenove (support@freenove.com)
- * Date       2019/11/15
+ * Date       2021/05/28
+ * Version    V12.0
  * Copyright  Copyright © Freenove (http://www.freenove.com)
  * License    Creative Commons Attribution ShareAlike 3.0
  *            (http://creativecommons.org/licenses/by-sa/3.0/legalcode)

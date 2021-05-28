@@ -1,7 +1,8 @@
 /*
  * File       Communication class for Freenove Hexapod Robot
  * Author     Ethan Pan @ Freenove (support@freenove.com)
- * Date       2019/11/15
+ * Date       2021/05/28
+ * Version    V12.0
  * Copyright  Copyright © Freenove (http://www.freenove.com)
  * License    Creative Commons Attribution ShareAlike 3.0
  *            (http://creativecommons.org/licenses/by-sa/3.0/legalcode)
@@ -151,7 +152,7 @@ class Communication {
     for (int i = 0; i < serialNames.length; i++)
       print(serialNames[i] + " ");
     println("");
-    for (int i = 0; i < serialNames.length; i++) {
+    for (int i = serialNames.length - 1; i >= 0; i--) {
       println(Time() + "Serial connection attempt: " + serialNames[i] + "...");
       try {
         serial = new Serial(parent, serialNames[i], 115200);
