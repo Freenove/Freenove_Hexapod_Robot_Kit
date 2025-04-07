@@ -1,78 +1,33 @@
-## Freenove Hexapod Robot Kit
+# Freenove Tutorial Online
 
-A robot kit based on Arduino IDE and Processing IDE.
+<img src="extra\freenove-logo.png" alt="freenove-logo" width='100%' align="left"/>
 
-> Arduino® is a trademark of Arduino LLC (https://www.arduino.cc/).
 
-<img src='Pictures/Product.png' width='50%'/>
 
-### Download
+## <img src="extra\start.png" alt="start" width='5%' align="left"/> **Quick Start**
 
-Click the green "Code" button, then click "Download ZIP" button in the pop-up window.  
-Do NOT click the "Open in Desktop" button, it will lead you to install Github software.
+Online Tutorial URL：[tutorial](https://docs.freenove.com/en/latest/)
 
-> If you meet any difficulties, please contact our technical team for help.
 
-### Use
 
-1. Download the ZIP file as above.
-2. Unzip it and you will get a folder contains tutorials and related files.
-3. Please start with "Tutorial.pdf".
+## <img src="extra\text.png" alt="text" width='5%' align="left"/> **Materials Download**
 
-### Support
+Tutorial Materials Download URL：[download](https://docs.freenove.com/en/latest/about-freenove/tutorial.html)
 
-Freenove provides free and quick customer support. Including but not limited to:
 
-* Quality problems of products
-* Problems of products when used
-* Questions of learning and creation
-* Opinions and suggestions
-* Ideas and thoughts
 
-Please send an email to:
+## <img src="extra\support.png" alt="support" width='4%' align="left"/>  **Support**
+
+We are fully responsible for our products!
+
+Please feel free to send us an email if you have any concerns, whether they are questions before buying or problems in use.
 
 [support@freenove.com](mailto:support@freenove.com)
 
-We will reply within one working day.
+In general, we will reply to you within one working day.
 
-### Purchase
 
-Please visit the following page to purchase our products:
 
-http://freenove.com/store
+## <img src="extra\freenove.png" alt="freenove" width='5%' align="left"/>**Freenove Official Website**
 
-Business customers please contact us through the following email address:
-
-[sale@freenove.com](mailto:sale@freenove.com)
-
-### About
-
-Freenove provides open source electronic products and services.
-
-Freenove is committed to helping customers learn programming and electronic knowledge, quickly implement product prototypes, realize their creativity and launch innovative products. Our services include:
-
-* Kits for learning programming and electronics
-* Kits compatible with Arduino®, Raspberry Pi®, micro:bit®, etc.
-* Kits for robots, smart cars, drones, etc.
-* Components, modules and tools
-* Design and customization
-
-To learn more about us or get our latest information, please visit our website:
-
-http://www.freenove.com
-
-### Copyright
-
-All the files in this repository are released under [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/). You can find a copy of the license in this repository.
-
-![markdown](https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
-
-> It means you can use these files on your own derived works, in part or completely. But not for commercial use.
-
-Freenove® brand and logo are trademarks of Freenove Creative Technology Co., Ltd. Must not be used without permission.
-
-Other registered trademarks and their owners appearing in this repository:
-
-Arduino® is a trademark of Arduino LLC (https://www.arduino.cc/).  
-Raspberry Pi® is a trademark of Raspberry Pi Foundation (https://www.raspberrypi.org/).  
-micro:bit® is a trademark of Micro:bit Educational Foundation (https://www.microbit.org/).  
+Freenove Official Website URL: [Freenove](https://freenove.com/)
