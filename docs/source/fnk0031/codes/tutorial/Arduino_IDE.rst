@@ -9,32 +9,64 @@ The control board of the robot is compatible with Arduino IDE. The Arduino IDE i
 Arduino IDE
 *******************************************************************************
 
-Arduino IDE uses C/C++ programming language. Please visit https://www.arduino.cc/reference/en/ for details.
+Arduino Software (IDE) is used to write and upload the code for Arduino Board.
 
-If you want to learn it easily, please visit http://www.freenove.com for kits designed for starters.
+First, install Arduino Software (IDE): visit https://www.arduino.cc/en/software/
 
-**! If you have already installed an earlier version, we recommend uninstalling it before continuing.**
-
-First, install Arduino IDE. Visit https://www.arduino.cc/en/software. Then select and download corresponding installer according to your operating system.
-
-.. image:: ../_static/imgs/Arduino_IDE/Arduino00.png
+.. image:: ../_static/imgs/Arduino_IDE/Preface03.png
     :align: center
 
-We will explain in the Windows version. The other versions are similar.
+Select and download corresponding installer based on your operating system. If you are a Windows user, please select the "Windows" to download and install the driver correctly.
 
-Download and complete the installation, an shortcut will be added to your computer's desktop.
-
-.. image:: ../_static/imgs/Arduino_IDE/Arduino01.png
+.. image:: ../_static/imgs/Arduino_IDE/Preface04.png
     :align: center
 
-Run the Arduino IDE, the interface of it is as follows:
+After the downloading completes, run the installer. For Windows users, there may pop up an installation dialog box of driver during the installation process. When it is popped up, please allow the installation.
 
-.. image:: ../_static/imgs/Arduino_IDE/Arduino02.png
+After installation is completed, an shortcut will be generated in the desktop.
+
+.. image:: ../_static/imgs/Arduino_IDE/Preface05.png
     :align: center
 
-Programs written using Arduino IDE are called sketches and are saved with the file extension.ino.
+Run it. The interface of the software is as follows:
 
-Please visit https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2 for more details.
+.. image:: ../_static/imgs/Arduino_IDE/Preface06.png
+    :align: center
+
+Programs written with Arduino IDE are called sketches. These sketches are written in a text editor and are saved with the file extension.ino. The editor has features for cutting/pasting and for searching/replacing text. The console displays text output by the Arduino IDE, including complete error messages and other information. The bottom right-hand corner of the window displays the configured board and serial port. The toolbar buttons allow you to verify and upload programs, open the serial monitor, and access the serial plotter.
+
+.. table::
+    :align: center
+    :class: table-line
+    :width: 80%
+    
+    +-------------+---------------------------------------------------------------------+
+    | |Preface07| | Verify                                                              |
+    |             |                                                                     |
+    |             | Checks your code for errors compiling it.                           |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface08| | Upload                                                              |
+    |             |                                                                     |
+    |             | Compiles your code and uploads it to the configured board.          |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface09| | Debug                                                               |
+    |             |                                                                     |
+    |             | Troubleshoot code errors and monitor program running status.        |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface10| | Serial Plotter                                                      |
+    |             |                                                                     |
+    |             | Real-time plotting of serial port data charts.                      |
+    +-------------+---------------------------------------------------------------------+
+    | |Preface11| | Serial Monitor                                                      |
+    |             |                                                                     |
+    |             | Used for debugging and communication between devices and computers. |
+    +-------------+---------------------------------------------------------------------+
+
+.. |Preface07| image:: ../_static/imgs/Arduino_IDE/Preface07.png
+.. |Preface08| image:: ../_static/imgs/Arduino_IDE/Preface08.png
+.. |Preface09| image:: ../_static/imgs/Arduino_IDE/Preface09.png
+.. |Preface10| image:: ../_static/imgs/Arduino_IDE/Preface10.png
+.. |Preface11| image:: ../_static/imgs/Arduino_IDE/Preface11.png
 
 Install Boards
 *******************************************************************************
@@ -57,12 +89,12 @@ It can connect 18 servos, a WLAN module and a wireless module. There are also so
 First Use
 ********************************************************************************
 
-Open the example sketch "Blink".
+Open the example sketch **"Blink"**.
 
 .. image:: ../_static/imgs/Arduino_IDE/Arduino05.png
     :align: center
 
-Click “Select Board" > "Select other board and port...”.
+Click **“Select Board" > "Select other board and port...”.**
 
 .. note:: There may be one or more devices displayed here, ignore them.
 
@@ -81,16 +113,16 @@ A new device (port) will appear in the PORTS list on the right, click to select 
 .. image:: ../_static/imgs/Arduino_IDE/Arduino08.png
     :align: center
 
-:red:`Can't find the port?` You may need to install the driver. Please see folder “Drivers”.
+:combo:`bg-red font-bolder:Can't find the port?` You may need to install the driver. Please see folder “Drivers”.
 
 **This “Drivers” folder is in the folder that contains this PDF tutorial.**
 
-Find **"Arduino Mega or Mega 2560"** in the BOARDS list on the left and click to select it. Then click “OK”.
+Find **"Arduino Mega or Mega 2560"** in the BOARDS list on the left and click to select it. Then click **“OK”**.
 
 .. image:: ../_static/imgs/Arduino_IDE/Arduino09.png
     :align: center
 
-Click the "Verify" button.
+Click the **"Verify"** button.
 
 .. image:: ../_static/imgs/Arduino_IDE/Arduino10.png
     :align: center
@@ -105,7 +137,7 @@ Wait a moment for the compiling to be completed. Figure below shows the code siz
 .. image:: ../_static/imgs/Arduino_IDE/Arduino12.png
     :align: center
 
-Click the "Upload" button.
+Click the **"Upload"** button.
 
 .. image:: ../_static/imgs/Arduino_IDE/Arduino13.png
     :align: center
@@ -122,7 +154,7 @@ Usually, you can directly click the “Upload” button, the compilation will au
 .. image:: ../_static/imgs/Arduino_IDE/Arduino15.png
     :align: center
 
-:red:`Having problems?` Contact us for help! Send mail to: support@freenove.com
+:combo:`bg-red font-bolder:Having problems?` Contact us for help! Send mail to: support@freenove.com
 
 We will see the LED marked with "L" on the control board starts blinking. It indicates that the code is running!
 
