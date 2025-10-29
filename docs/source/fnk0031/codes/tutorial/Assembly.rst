@@ -41,7 +41,7 @@ You can find the added libraries in “ **Sketch** ” > “ **Include Library**
 .. image:: ../_static/imgs/Assembly/Assembly01.png
     :align: center
 
-Now open " **File** " > " **Examples** " > " **FNQR** " > " **Default** " > " **Robot** ".
+Now open " **File** " > " **Examples** " > " **FNHR** " > " **Default** " > " **Robot** ".
 
 .. image:: ../_static/imgs/Assembly/Assembly02.png
     :align: center
@@ -98,7 +98,7 @@ After the installation succeeds, close “Contribution Manager” window.
 
 Find “controlP5.zip” in “ProcessingLibraries” folder. This folder is in the folder that contains this PDF tutorial. Then unzip it to "libraries" folder in "File" > "Preferences..." > "Sketchbook folder".
 
-After library is installed, open " **Freenove_Quadruped_Robot_Kit\\ProcessingApp\\ProcessingApp.pde** " with Processing IDE. This file is in the folder that contains this PDF tutorial.
+After library is installed, open " **Freenove_Hexapod_Robot_Kit\\ProcessingApp\\ProcessingApp.pde** " with Processing IDE. This file is in the folder that contains this PDF tutorial.
 
 .. image:: ../_static/imgs/Assembly/Assembly09.png
     :align: center
@@ -147,7 +147,7 @@ Step 03
 
 Now we will make a test and then set the control board to installation mode.
 
-**Take out all the servos and connect all of them to the control board** (yellow wire of servo to S, red to +, black to -). Servos can be connected randomly to port 22~27 and 34~39 (do NOT connect to 28~33).
+**Take out all the servos and connect all of them to the control board** (yellow wire of servo to S, red to +, black to -). Servos can be connected randomly to the port 22~39.
 
 (The name of the port is marked on the front of the control board.)
 
