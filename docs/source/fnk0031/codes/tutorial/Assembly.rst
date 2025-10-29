@@ -27,7 +27,7 @@ First, we need to upload the default sketch to the control board (Freenove Crawl
 
 Libraries are collections of code that makes programming simple.
 
-The "FNQR" (Freenove Quadruped Robot) library is used to control this robot. We need to add it and other necessary libraries to Arduino IDE.
+The "FNHR" (Freenove Hexapod Robot) library is used to control this robot. We need to add it and other necessary libraries to Arduino IDE.
 
 Open Arduino IDE, click “ **Sketch** ” > “ **Include Library** ” > “ **Add .ZIP Library...** ” to add a library file.
 
@@ -222,43 +222,48 @@ Now let us assemble the robot.
 
 **Assembling and using the robot on rough surfaces such as carpets will damage the servos.**
 
-+----------------------------------------------------------------------------------------------------+
-| Place disc servo arm on the following acrylic plate.                                               |
-|                                                                                                    |
-| (Disc servo arm and servo are packed together.)                                                    |
-|                                                                                                    |
-| |Assembly21|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
-| The correct location is as below.                                                                  |
-|                                                                                                    |
-| |Assembly22|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
-| Rotate disc servo arm to align its hole with the hole on the acrylic plate.                        |
-|                                                                                                    |
-| |Assembly23|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
-| When all holes align:                                                                              |
-|                                                                                                    |
-| |Assembly24|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
-| Use the screws to fix disc servo arm to acrylic plate.                                             |
-|                                                                                                    |
-| If a package of M1.2*7 self-tapping screws cannot be found, it may be packed in the servo package. |
-|                                                                                                    |
-| |Assembly25|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
-| Tighten the screws as below.                                                                       |
-|                                                                                                    |
-| |Assembly26|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
-| Use the same screws to fix other holes of disc servo arm.                                          |
-|                                                                                                    |
-| |Assembly27|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
-| Use the same size of screws to fix 5 other disc servo arms to acrylic plate.                       |
-|                                                                                                    |
-| |Assembly28|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +----------------------------------------------------------------------------------------------------+
+    | Place disc servo arm on the following acrylic plate.                                               |
+    |                                                                                                    |
+    | (Disc servo arm and servo are packed together.)                                                    |
+    |                                                                                                    |
+    | |Assembly21|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
+    | The correct location is as below.                                                                  |
+    |                                                                                                    |
+    | |Assembly22|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
+    | Rotate disc servo arm to align its hole with the hole on the acrylic plate.                        |
+    |                                                                                                    |
+    | |Assembly23|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
+    | When all holes align:                                                                              |
+    |                                                                                                    |
+    | |Assembly24|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
+    | Use the screws to fix disc servo arm to acrylic plate.                                             |
+    |                                                                                                    |
+    | If a package of M1.2*7 self-tapping screws cannot be found, it may be packed in the servo package. |
+    |                                                                                                    |
+    | |Assembly25|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
+    | Tighten the screws as below.                                                                       |
+    |                                                                                                    |
+    | |Assembly26|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
+    | Use the same screws to fix other holes of disc servo arm.                                          |
+    |                                                                                                    |
+    | |Assembly27|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
+    | Use the same size of screws to fix 5 other disc servo arms to acrylic plate.                       |
+    |                                                                                                    |
+    | |Assembly28|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
 
 .. |Assembly21| image:: ../_static/imgs/Assembly/Assembly21.png
 .. |Assembly22| image:: ../_static/imgs/Assembly/Assembly22.png
@@ -272,15 +277,20 @@ Now let us assemble the robot.
 Step 05
 *******************************************************************************
 
-+--------------------------------------------------------------------------------------+
-| Use the same size of screws to fix 2 disc servo arms to the following acrylic plate. |
-|                                                                                      |
-| |Assembly29|                                                                         |
-+--------------------------------------------------------------------------------------+
-| Assemble 5 other acrylic plates as below.                                            |
-|                                                                                      |
-| |Assembly30|                                                                         |
-+--------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +--------------------------------------------------------------------------------------+
+    | Use the same size of screws to fix 2 disc servo arms to the following acrylic plate. |
+    |                                                                                      |
+    | |Assembly29|                                                                         |
+    +--------------------------------------------------------------------------------------+
+    | Assemble 5 other acrylic plates as below.                                            |
+    |                                                                                      |
+    | |Assembly30|                                                                         |
+    +--------------------------------------------------------------------------------------+
 
 .. |Assembly29| image:: ../_static/imgs/Assembly/Assembly29.png
 .. |Assembly30| image:: ../_static/imgs/Assembly/Assembly30.png
@@ -288,21 +298,26 @@ Step 05
 Step 06
 *******************************************************************************
 
-+----------------------------------------------------------------------------------+
-| Use screws and nuts to fix servo to the following acrylic plate.                 |
-|                                                                                  |
-| |Assembly31|                                                                     |
-+----------------------------------------------------------------------------------+
-| Fix them as below. Note the position of the servo shaft.                         |
-|                                                                                  |
-| |Assembly32|                                                                     |
-+----------------------------------------------------------------------------------+
-| Assemble 5 other acrylic plates.                                                 |
-|                                                                                  |
-| Note the direction of acrylic plates. Two of them are opposite to the other two. |
-|                                                                                  |
-| |Assembly33|                                                                     |
-+----------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +----------------------------------------------------------------------------------+
+    | Use screws and nuts to fix servo to the following acrylic plate.                 |
+    |                                                                                  |
+    | |Assembly31|                                                                     |
+    +----------------------------------------------------------------------------------+
+    | Fix them as below. Note the position of the servo shaft.                         |
+    |                                                                                  |
+    | |Assembly32|                                                                     |
+    +----------------------------------------------------------------------------------+
+    | Assemble 5 other acrylic plates.                                                 |
+    |                                                                                  |
+    | Note the direction of acrylic plates. Two of them are opposite to the other two. |
+    |                                                                                  |
+    | |Assembly33|                                                                     |
+    +----------------------------------------------------------------------------------+
 
 .. |Assembly31| image:: ../_static/imgs/Assembly/Assembly31.png
 .. |Assembly32| image:: ../_static/imgs/Assembly/Assembly32.png
@@ -311,19 +326,24 @@ Step 06
 Step 07
 *******************************************************************************
 
-+-----------------------------------------+----------------------------------------+
-| Use screws and nuts to fix servo to the | Fix them as below. Note the position   |
-|                                         |                                        |
-| following acrylic plate.                | of the servo shaft.                    |
-|                                         |                                        |
-| |Assembly34|                            | |Assembly35|                           |
-+-----------------------------------------+----------------------------------------+
-| Assemble 5 other acrylic plates.                                                 |
-|                                                                                  |
-| Note the direction of acrylic plates. Two of them are opposite to the other two. |
-|                                                                                  |
-| |Assembly36|                                                                     |
-+----------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +-----------------------------------------+----------------------------------------+
+    | Use screws and nuts to fix servo to the | Fix them as below. Note the position   |
+    |                                         |                                        |
+    | following acrylic plate.                | of the servo shaft.                    |
+    |                                         |                                        |
+    | |Assembly34|                            | |Assembly35|                           |
+    +-----------------------------------------+----------------------------------------+
+    | Assemble 5 other acrylic plates.                                                 |
+    |                                                                                  |
+    | Note the direction of acrylic plates. Two of them are opposite to the other two. |
+    |                                                                                  |
+    | |Assembly36|                                                                     |
+    +----------------------------------------------------------------------------------+
 
 .. |Assembly34| image:: ../_static/imgs/Assembly/Assembly34.png
 .. |Assembly35| image:: ../_static/imgs/Assembly/Assembly35.png
@@ -332,19 +352,24 @@ Step 07
 Step 08
 **********************************************************************************
 
-+-----------------------------------------+----------------------------------------+
-| Use screws and nuts to fix servo to the | Fix them as below. Note the position   |
-|                                         |                                        |
-| following acrylic plate.                | of the servo shaft.                    |
-|                                         |                                        |
-| |Assembly37|                            | |Assembly38|                           |
-+-----------------------------------------+----------------------------------------+
-| Assemble 5 other acrylic plates.                                                 |
-|                                                                                  |
-| Note the direction of acrylic plates. Two of them are opposite to the other two. |
-|                                                                                  |
-| |Assembly39|                                                                     |
-+----------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +-----------------------------------------+----------------------------------------+
+    | Use screws and nuts to fix servo to the | Fix them as below. Note the position   |
+    |                                         |                                        |
+    | following acrylic plate.                | of the servo shaft.                    |
+    |                                         |                                        |
+    | |Assembly37|                            | |Assembly38|                           |
+    +-----------------------------------------+----------------------------------------+
+    | Assemble 5 other acrylic plates.                                                 |
+    |                                                                                  |
+    | Note the direction of acrylic plates. Two of them are opposite to the other two. |
+    |                                                                                  |
+    | |Assembly39|                                                                     |
+    +----------------------------------------------------------------------------------+
 
 .. |Assembly37| image:: ../_static/imgs/Assembly/Assembly37.png
 .. |Assembly38| image:: ../_static/imgs/Assembly/Assembly38.png
@@ -353,25 +378,30 @@ Step 08
 Step 09
 **********************************************************************************
 
-+-----------------------------------------+----------------------------------------+
-| Use screws and nuts to fix servo to the | Fix them as below. Three sets of them  |
-|                                         |                                        |
-| following acrylic plate.                | need to be assembled.                  |
-|                                         |                                        |
-| |Assembly40|                            | |Assembly41|                           |
-+-----------------------------------------+----------------------------------------+
-| Use screws and nuts to fix two parts    | Fix them as below. Three sets of them  |
-|                                         |                                        |
-| assembled before.                       | need to be assembled.                  |
-|                                         |                                        |
-| |Assembly42|                            | |Assembly43|                           |
-+-----------------------------------------+----------------------------------------+
-| After the assembly is completed, the following 6 components are obtained.        |
-|                                                                                  |
-| Note that two of them are different from the other two.                          |
-|                                                                                  |
-| |Assembly44|                                                                     |
-+----------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +-----------------------------------------+----------------------------------------+
+    | Use screws and nuts to fix servo to the | Fix them as below. Three sets of them  |
+    |                                         |                                        |
+    | following acrylic plate.                | need to be assembled.                  |
+    |                                         |                                        |
+    | |Assembly40|                            | |Assembly41|                           |
+    +-----------------------------------------+----------------------------------------+
+    | Use screws and nuts to fix two parts    | Fix them as below. Three sets of them  |
+    |                                         |                                        |
+    | assembled before.                       | need to be assembled.                  |
+    |                                         |                                        |
+    | |Assembly42|                            | |Assembly43|                           |
+    +-----------------------------------------+----------------------------------------+
+    | After the assembly is completed, the following 6 components are obtained.        |
+    |                                                                                  |
+    | Note that two of them are different from the other two.                          |
+    |                                                                                  |
+    | |Assembly44|                                                                     |
+    +----------------------------------------------------------------------------------+
 
 .. |Assembly40| image:: ../_static/imgs/Assembly/Assembly40.png
 .. |Assembly41| image:: ../_static/imgs/Assembly/Assembly41.png
@@ -382,33 +412,38 @@ Step 09
 Step 10
 *********************************************************************************
 
-+----------------------------------------------------------------------------------------------------------------+
-| Use screws and brass standoffs to fix control board to the following part assembled before.                    |
-|                                                                                                                |
-| |Assembly45|                                                                                                   |
-+----------------------------------------------------------------------------------------------------------------+
-| Fix them as below.                                                                                             |
-|                                                                                                                |
-| |Assembly46|                                                                                                   |
-+----------------------------------------------------------------------------------------------------------------+
-| Install batteries for the control board.                                                                       |
-|                                                                                                                |
-| **! You have to install the right batteries that are fully charged. (Refer to “AboutBattery_for_V3.pdf”)**     |
-|                                                                                                                |
-| Assembling the robot without right batteries will cause installation errors and damage the servos.             |
-|                                                                                                                |
-| |Assembly47|                                                                                                   |
-+----------------------------------------------------------------------------------------------------------------+
-| Make sure the power is turned off, and then connect all servos to control board.                               |
-|                                                                                                                |
-| (yellow wire of servo to S, red to +, black to -)                                                              |
-|                                                                                                                |
-| (servos can be connected randomly to port 22~39)                                                               |
-|                                                                                                                |
-| (The name of the port is marked on the front of the control board.)                                            |
-|                                                                                                                |
-| |Assembly48|                                                                                                   |
-+----------------------------------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +----------------------------------------------------------------------------------------------------------------+
+    | Use screws and brass standoffs to fix control board to the following part assembled before.                    |
+    |                                                                                                                |
+    | |Assembly45|                                                                                                   |
+    +----------------------------------------------------------------------------------------------------------------+
+    | Fix them as below.                                                                                             |
+    |                                                                                                                |
+    | |Assembly46|                                                                                                   |
+    +----------------------------------------------------------------------------------------------------------------+
+    | Install batteries for the control board.                                                                       |
+    |                                                                                                                |
+    | **! You have to install the right batteries that are fully charged. (Refer to “AboutBattery_for_V3.pdf”)**     |
+    |                                                                                                                |
+    | Assembling the robot without right batteries will cause installation errors and damage the servos.             |
+    |                                                                                                                |
+    | |Assembly47|                                                                                                   |
+    +----------------------------------------------------------------------------------------------------------------+
+    | Make sure the power is turned off, and then connect all servos to control board.                               |
+    |                                                                                                                |
+    | (yellow wire of servo to S, red to +, black to -)                                                              |
+    |                                                                                                                |
+    | (servos can be connected randomly to port 22~39)                                                               |
+    |                                                                                                                |
+    | (The name of the port is marked on the front of the control board.)                                            |
+    |                                                                                                                |
+    | |Assembly48|                                                                                                   |
+    +----------------------------------------------------------------------------------------------------------------+
 
 :red:`! Keep all servos connected to the control board unless they are required to disconnect.`
 
@@ -426,27 +461,32 @@ Turn on the power. The servos will rotate and then stop.
 
 **! The wires of servos are not shown in the future steps.**
 
-+------------------------------------------------------------------------------------------------------------+
-| Use screws to fix the 6 parts assembled before.                                                            |
-|                                                                                                            |
-| Please note the installation angle of 6 parts. (Refer to the installation result at the end of this step.) |
-|                                                                                                            |
-| ! When installing, you must keep the power on and all servos connected.                                    |
-|                                                                                                            |
-| |Assembly49|                                                                                               |
-+------------------------------------------------------------------------------------------------------------+
-| Fix them as below.                                                                                         |
-|                                                                                                            |
-| |Assembly50|                                                                                               |
-+------------------------------------------------------------------------------------------------------------+
-| When the power is turned on, the angles of 6 parts should be as shown below.                               |
-|                                                                                                            |
-| Please try to get them close to the required angle. A small deviation is acceptable.                       |
-|                                                                                                            |
-| We will correct the deviation in future calibration step.                                                  |
-|                                                                                                            |
-| |Assembly51|                                                                                               |
-+------------------------------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +------------------------------------------------------------------------------------------------------------+
+    | Use screws to fix the 6 parts assembled before.                                                            |
+    |                                                                                                            |
+    | Please note the installation angle of 6 parts. (Refer to the installation result at the end of this step.) |
+    |                                                                                                            |
+    | ! When installing, you must keep the power on and all servos connected.                                    |
+    |                                                                                                            |
+    | |Assembly49|                                                                                               |
+    +------------------------------------------------------------------------------------------------------------+
+    | Fix them as below.                                                                                         |
+    |                                                                                                            |
+    | |Assembly50|                                                                                               |
+    +------------------------------------------------------------------------------------------------------------+
+    | When the power is turned on, the angles of 6 parts should be as shown below.                               |
+    |                                                                                                            |
+    | Please try to get them close to the required angle. A small deviation is acceptable.                       |
+    |                                                                                                            |
+    | We will correct the deviation in future calibration step.                                                  |
+    |                                                                                                            |
+    | |Assembly51|                                                                                               |
+    +------------------------------------------------------------------------------------------------------------+
 
 .. |Assembly49| image:: ../_static/imgs/Assembly/Assembly49.png
 .. |Assembly50| image:: ../_static/imgs/Assembly/Assembly50.png
@@ -455,30 +495,35 @@ Turn on the power. The servos will rotate and then stop.
 Step 12
 ********************************************************************************
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-| Use the same sizes of screws to fix 6 parts assembled before.                                                                                  |
-|                                                                                                                                                |
-| Please note the installation angle of 6 parts. (Refer to the installation result at the end of this step.)                                     |
-|                                                                                                                                                |
-| **! When installing, except tightening the screws, you must keep the power ON and all servos connected.**                                      |
-|                                                                                                                                                |
-|                                                                                                                                                |
-| When you tighten the screws, it may be obstructed by other parts. You can turn off the power                                                   |
-|                                                                                                                                                |
-| temporarily and rotate the servo to facilitate tightening the screws. When you complete tightening the                                         |
-|                                                                                                                                                |
-| screws, you need turn on the power first, then continue following steps.                                                                       |
-|                                                                                                                                                |
-| |Assembly52|                                                                                                                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-| When the power is turned on, the angle of 6 parts should be shown as below.                                                                    |
-|                                                                                                                                                |
-| Please try to get them close to the required angle. A small deviation is acceptable.                                                           |
-|                                                                                                                                                |
-| We will correct the deviation in future calibration step.                                                                                      |
-|                                                                                                                                                |
-| |Assembly53|                                                                                                                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Use the same sizes of screws to fix 6 parts assembled before.                                                                                  |
+    |                                                                                                                                                |
+    | Please note the installation angle of 6 parts. (Refer to the installation result at the end of this step.)                                     |
+    |                                                                                                                                                |
+    | **! When installing, except tightening the screws, you must keep the power ON and all servos connected.**                                      |
+    |                                                                                                                                                |
+    |                                                                                                                                                |
+    | When you tighten the screws, it may be obstructed by other parts. You can turn off the power                                                   |
+    |                                                                                                                                                |
+    | temporarily and rotate the servo to facilitate tightening the screws. When you complete tightening the                                         |
+    |                                                                                                                                                |
+    | screws, you need turn on the power first, then continue following steps.                                                                       |
+    |                                                                                                                                                |
+    | |Assembly52|                                                                                                                                   |
+    +------------------------------------------------------------------------------------------------------------------------------------------------+
+    | When the power is turned on, the angle of 6 parts should be shown as below.                                                                    |
+    |                                                                                                                                                |
+    | Please try to get them close to the required angle. A small deviation is acceptable.                                                           |
+    |                                                                                                                                                |
+    | We will correct the deviation in future calibration step.                                                                                      |
+    |                                                                                                                                                |
+    | |Assembly53|                                                                                                                                   |
+    +------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. |Assembly52| image:: ../_static/imgs/Assembly/Assembly52.png
 .. |Assembly53| image:: ../_static/imgs/Assembly/Assembly53.png
@@ -486,23 +531,28 @@ Step 12
 Step 13
 ********************************************************************************
 
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-| Use the same sizes of screws to fix 6 parts assembled before.                                                                                  |
-|                                                                                                                                                |
-| Please note the installation angle of 6 parts. (Refer to the installation result at the end of this step.)                                     |
-|                                                                                                                                                |
-| ! When installing, except tightening the screws, you must keep the power ON and all servos connected.                                          |
-|                                                                                                                                                |
-| |Assembly54|                                                                                                                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-| When the power is turned on, the angle of 6 parts should be shown as below.                                                                    |
-|                                                                                                                                                |
-| Please try to get them close to the required angle. A small deviation is acceptable.                                                           |
-|                                                                                                                                                |
-| We will correct the deviation in future calibration step.                                                                                      |
-|                                                                                                                                                |
-| |Assembly55|                                                                                                                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +------------------------------------------------------------------------------------------------------------------------------------------------+
+    | Use the same sizes of screws to fix 6 parts assembled before.                                                                                  |
+    |                                                                                                                                                |
+    | Please note the installation angle of 6 parts. (Refer to the installation result at the end of this step.)                                     |
+    |                                                                                                                                                |
+    | ! When installing, except tightening the screws, you must keep the power ON and all servos connected.                                          |
+    |                                                                                                                                                |
+    | |Assembly54|                                                                                                                                   |
+    +------------------------------------------------------------------------------------------------------------------------------------------------+
+    | When the power is turned on, the angle of 6 parts should be shown as below.                                                                    |
+    |                                                                                                                                                |
+    | Please try to get them close to the required angle. A small deviation is acceptable.                                                           |
+    |                                                                                                                                                |
+    | We will correct the deviation in future calibration step.                                                                                      |
+    |                                                                                                                                                |
+    | |Assembly55|                                                                                                                                   |
+    +------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. |Assembly54| image:: ../_static/imgs/Assembly/Assembly54.png
 .. |Assembly55| image:: ../_static/imgs/Assembly/Assembly55.png
@@ -512,15 +562,20 @@ Step 14
 
 **! Turn off the power and pull off all the wires of servos.**
 
-+----------------------------------------------------------------------------------------------------+
-| Then reconnect the servos to control board, the ports they should be connected to are shown below. |
-|                                                                                                    |
-| ! The view of the picture below is from the bottom of the robot (you can see the battery).         |
-|                                                                                                    |
-| ! The name of the port is marked on the front of the control board.                                |
-|                                                                                                    |
-| |Assembly56|                                                                                       |
-+----------------------------------------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +----------------------------------------------------------------------------------------------------+
+    | Then reconnect the servos to control board, the ports they should be connected to are shown below. |
+    |                                                                                                    |
+    | ! The view of the picture below is from the bottom of the robot (you can see the battery).         |
+    |                                                                                                    |
+    | ! The name of the port is marked on the front of the control board.                                |
+    |                                                                                                    |
+    | |Assembly56|                                                                                       |
+    +----------------------------------------------------------------------------------------------------+
 
 .. |Assembly56| image:: ../_static/imgs/Assembly/Assembly56.png
 
@@ -537,28 +592,38 @@ Please return to the “Step 1” to reinstall.
 
 If there is not much difference, turn off the power and continue.
 
-+----------------------------------------------------------------------+
-| Use cable tidy to arrange the wires of servos.                       |
-|                                                                      |
-| Do not wrap the wires too tight, so that the servos can move freely. |
-|                                                                      |
-| |Assembly58|                                                         |
-+----------------------------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +----------------------------------------------------------------------+
+    | Use cable tidy to arrange the wires of servos.                       |
+    |                                                                      |
+    | Do not wrap the wires too tight, so that the servos can move freely. |
+    |                                                                      |
+    | |Assembly58|                                                         |
+    +----------------------------------------------------------------------+
 
 .. |Assembly58| image:: ../_static/imgs/Assembly/Assembly58.png
 
 Step 15
 *********************************************************************************
 
-+------------------------------------------------+
-| Use screws to fix the following acrylic plate. |
-|                                                |
-| |Assembly59|                                   |
-+------------------------------------------------+
-| Fix it as below.                               |
-|                                                |
-| |Assembly60|                                   |
-+------------------------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +------------------------------------------------+
+    | Use screws to fix the following acrylic plate. |
+    |                                                |
+    | |Assembly59|                                   |
+    +------------------------------------------------+
+    | Fix it as below.                               |
+    |                                                |
+    | |Assembly60|                                   |
+    +------------------------------------------------+
 
 .. |Assembly59| image:: ../_static/imgs/Assembly/Assembly59.png
 .. |Assembly60| image:: ../_static/imgs/Assembly/Assembly60.png
@@ -566,15 +631,20 @@ Step 15
 Step 16
 *********************************************************************************
 
-+-----------------------------------+
-| Fix WLAN module to control board. |
-|                                   |
-| |Assembly61|                      |
-+-----------------------------------+
-| Fix it as below.                  |
-|                                   |
-| |Assembly62|                      |
-+-----------------------------------+
+.. table:: 
+    :align: center
+    :class: table-line
+    :width: 90%
+
+    +-----------------------------------+
+    | Fix WLAN module to control board. |
+    |                                   |
+    | |Assembly61|                      |
+    +-----------------------------------+
+    | Fix it as below.                  |
+    |                                   |
+    | |Assembly62|                      |
+    +-----------------------------------+
 
 .. |Assembly61| image:: ../_static/imgs/Assembly/Assembly61.png
 .. |Assembly62| image:: ../_static/imgs/Assembly/Assembly62.png
