@@ -1,8 +1,8 @@
 /*
  * File       Control robot class for Freenove Hexapod Robot
  * Author     Ethan Pan @ Freenove (support@freenove.com)
- * Date       2021/05/28
- * Version    V12.0
+ * Date       2026/02/09
+ * Version    V12.6
  * Copyright  Copyright © Freenove (http://www.freenove.com)
  * License    Creative Commons Attribution ShareAlike 3.0
  *            (http://creativecommons.org/licenses/by-sa/3.0/legalcode)

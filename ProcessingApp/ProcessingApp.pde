@@ -4,8 +4,8 @@
  *            To use Serial, the robot should connect to the device run this sketch.
  *            To use Wi-Fi, the device run this sketch should connect to the Wi-Fi of the robot.
  * Author     Ethan Pan @ Freenove (support@freenove.com)
- * Date       2021/05/28
- * Version    V12.0
+ * Date       2026/02/09
+ * Version    V12.6
  * Copyright  Copyright © Freenove (http://www.freenove.com)
  * License    Creative Commons Attribution ShareAlike 3.0
  *            (http://creativecommons.org/licenses/by-sa/3.0/legalcode)
@@ -41,7 +41,7 @@ int lastGetVoltage = 0;
 void setup() {
   size(800, 600);
   noStroke();
-  font = createFont("Lucida Sans Regular", 16);
+  font = loadFont("ArialMT-16.vlw");
   textFont(font);
   textAlign(CENTER, CENTER);
   pImageControl = loadImage("control.png");
@@ -156,7 +156,7 @@ void setControlP5TabGlobal() {
     .setSize(20, 20)
     .setItemsPerRow(2)
     .setSpacingRow(4)
-    .setSpacingColumn(60)
+    .setSpacingColumn(70)
     .addItem("serial", 1)
     .addItem("wi-fi", 2)
     .activate(0)
@@ -173,15 +173,15 @@ void setControlP5TabGlobal() {
 
   textlabelInfo = cp5.addTextlabel("labelInfo")
     .setText(" ")
-    .setPosition(4 + 128 + 24, tabHeight + 11 + 20 + 14)
-    .setFont(createFont("Lucida Sans Regular", 32))
+    .setPosition(4 + 128 + 18, tabHeight + 11 + 20 + 20)
+    .setFont(loadFont("ArialMT-32.vlw"))
     .moveTo("global")
     ;
 
   textlabelVoltage = cp5.addTextlabel("labelVoltage")
     .setText("0.0V")
-    .setPosition(width - 128, tabHeight + 11 + 20 + 14)
-    .setFont(createFont("Lucida Sans Regular", 32))
+    .setPosition(width - 128, tabHeight + 11 + 20 + 20)
+    .setFont(loadFont("ArialMT-32.vlw"))
     .moveTo("global")
     ;
 }
